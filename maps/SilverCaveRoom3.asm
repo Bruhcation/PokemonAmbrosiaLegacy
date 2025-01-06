@@ -439,6 +439,10 @@ PokemonMasterQuestText:
     line "them is called the"
     cont "MONARCH."
 
+    para "It is found above"
+    line "the MT SILVER"
+    cont "#CENTER."
+
     para "That should be"
     line "your next goal."
     done

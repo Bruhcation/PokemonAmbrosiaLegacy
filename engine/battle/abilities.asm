@@ -207,7 +207,6 @@ UberImmunePokemon:
 ;    db WEEZING
 ;    db LATIAS
 ;    db LATIOS
-;    db UNOWN
 ;    db ROTOM
 ;    db -1
 

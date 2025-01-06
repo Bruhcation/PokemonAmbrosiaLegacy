@@ -6654,10 +6654,10 @@ LoadEnemyMon:
 ; Forced shiny battle type
 ; Used by Red Gyarados at Lake of Rage
 
-; DevNote - shiny - all Pokemon have 5% chance to be shiny
+; DevNote - shiny - all Pokemon have 4% chance to be shiny
     ld b, a
 	call BattleRandom
-    cp 5 percent
+    cp 4 percent
     ld a, b
     jr c, .GenerateShinyDVs
 
