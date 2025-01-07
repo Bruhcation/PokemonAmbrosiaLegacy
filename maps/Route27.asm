@@ -252,7 +252,7 @@ Route27FisherText:
 	para "The country is"
 	line "in lock down due"
 	cont "to the threat of"
-	cont "the HEONN war."
+	cont "the HOENN war."
 
 	para "Let me see your"
 	line "trainer card!"

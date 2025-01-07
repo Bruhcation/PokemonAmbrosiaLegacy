@@ -463,8 +463,7 @@ BugCatchingContestant10BScript:
 	closetext
 	end
 
-UnusedBugCatchingContestExplanationSign: ; unreferenced
-; duplicate of BugCatchingContestExplanationSign in Route35NationalParkGate.asm
+BugCatchingContestExplanationSign36:
 	jumptext UnusedBugCatchingContestExplanationText
 
 Route36NationalParkGatePlayerWaitWithContestantsMovement:
@@ -860,7 +859,7 @@ Route36NationalParkGate_MapEvents:
 	def_coord_events
 
 	def_bg_events
-	bg_event  6,  0, BGEVENT_READ, BugCatchingContestExplanationSign
+	bg_event  6,  0, BGEVENT_READ, BugCatchingContestExplanationSign36
 
 	def_object_events
 	object_event  0,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Route36OfficerScriptContest, EVENT_ROUTE_36_NATIONAL_PARK_GATE_OFFICER_CONTEST_DAY
