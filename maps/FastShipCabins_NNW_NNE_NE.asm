@@ -284,7 +284,7 @@ GentlemanEdwardSeenText:
 	cont "dear old WALLACE."
 
 	para "KANTO are willing"
-	line "to take on enormous"
+	line "to take on huge"
 	cont "debt to fund their"
 	cont "war."
 
@@ -307,7 +307,7 @@ GentlemanEdwardAfterBattleText:
 
 	para "That is the mark"
 	line "of a masterful"
-	cont "entrepreneur"
+	cont "entrepreneur."
 	done
 
 BurglarCoreySeenText:
