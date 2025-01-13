@@ -2457,7 +2457,8 @@ RioluEvosAttacks:
 	db 30, AURA_SPHERE
 	db 33, DRAIN_PUNCH
 	db 36, IRON_HEAD
-	db 41, BULK_UP
+	db 40, EXTREMESPEED
+	db 45, BULK_UP
 	db 50, CLOSE_COMBAT
 	db 55, SWORDS_DANCE
 	db 0 ; no more level-up moves
@@ -2476,7 +2477,8 @@ LucarioEvosAttacks:
 	db 30, AURA_SPHERE
 	db 33, DRAIN_PUNCH
 	db 36, IRON_HEAD
-	db 41, BULK_UP
+	db 40, EXTREMESPEED
+	db 45, BULK_UP
 	db 50, CLOSE_COMBAT
 	db 55, SWORDS_DANCE
 	db 0 ; no more level-up moves
