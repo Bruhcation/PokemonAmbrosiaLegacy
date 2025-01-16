@@ -66,7 +66,7 @@ ArnieSwarmText:
 ArnieHaventSeenRareMonText:
 	text "I haven't seen any"
 	line "rare #MON"
-	cont "latley."
+	cont "lately."
 	para "I don't need them."
 	para "All I need in life"
 	line "is my one and only"

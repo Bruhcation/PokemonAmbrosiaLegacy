@@ -36,7 +36,7 @@ BeverlyFoundItemText:
 	line "in GOLDENROD the"
 	cont "other day."
 	para "People were so"
-	line "greatful they gave"
+	line "grateful they gave"
 	cont "us some NUGGETS."
 	para "Come see me and"
 	line "I'll give you one!"

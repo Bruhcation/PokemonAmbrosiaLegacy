@@ -1326,6 +1326,14 @@ BattleCommand_Stab:
 	call GetBattleVar
 	and TYPE_MASK
 	ld b, a ; b is now the move type
+
+; DevNote - Uber moves are guaranteed to always be neutral
+	cp UBER
+	jp nz, .goOn
+	ld a, 1
+	ld [wTypeModifier], a
+	ret
+.goOn
 	ld hl, TypeMatchups ; load the type matchups in hl
 
 .TypesLoop: ; we loop through type matchups
@@ -1337,10 +1345,10 @@ BattleCommand_Stab:
 	; foresight
 	cp -2
 	jr nz, .SkipForesightCheck
-	ld a, BATTLE_VARS_SUBSTATUS1_OPP
-	call GetBattleVar
-	bit SUBSTATUS_IDENTIFIED, a
-	jp nz, .end ; if forsight has been used ignore type matchup
+	;ld a, BATTLE_VARS_SUBSTATUS1_OPP
+	;call GetBattleVar
+	;bit SUBSTATUS_IDENTIFIED, a
+	;jp nz, .end ; if forsight has been used ignore type matchup
 
 	jr .TypesLoop
 
@@ -1363,13 +1371,13 @@ BattleCommand_Stab:
 	ld b, a
 ; If the target is immune to the move, treat it as a miss and calculate the damage as 0
 	ld a, [hl]
-	and a ; looks like a is the matchup multiplyer, 0 for immune
+	and a ; looks like a is the matchup multiplier, 0 for immune
 	jr nz, .NotImmune
 	inc a
 	ld [wAttackMissed], a ; if defender is immune it is treated as a miss
 	xor a
 .NotImmune:
-	ldh [hMultiplier], a ; hMultiplier is now type multiplyer
+	ldh [hMultiplier], a ; hMultiplier is now type multiplier
 	add b
 	ld [wTypeModifier], a
 

@@ -231,7 +231,7 @@ BurnedTowerSilver_AfterText2:
 	done
 
 BurnedTower1FEusineIntroText:
-	text "Have you see"
+	text "Have you seen"
 	line "SUICUNE!"
 
 	para "When I was a"
@@ -244,7 +244,7 @@ BurnedTower1FEusineIntroText:
 	cont "catch SUICUNE."
 
 	para "Only through"
-	line "SUICUNE can I"
+	line "SUICUNE shall I"
 	cont "find true joy."
 
 	para "I am EUSINE"

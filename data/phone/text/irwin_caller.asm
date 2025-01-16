@@ -52,7 +52,6 @@ IrwinRisingBadgeGossipText:
 	para "I met her once."
 	para "She crushed my"
 	line "VOLTORBS."
-	para "It hurt."
 	done
 
 IrwinVermilionCityGossipText:

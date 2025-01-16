@@ -246,7 +246,7 @@ AzaleaTownPlayerLeavesKurtsHouseMovement:
 AzaleaTownRivalBeforeText:
 	text "I came when I"
 	line "heard TEAM ROCKET"
-	cont "where here."
+	cont "were here."
 
 	para "But they have"
 	line "already crawled"

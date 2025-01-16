@@ -27,7 +27,7 @@ JoeyLostAMonText:
 	text "Did you know"
 	line "RATICATE has a"
 	cont "secret ultimate"
-	cont "move, FINAL FANG."
+	cont "move, FINAL FANG?"
 	para "Only the strongest"
 	line "RATICATE can"
 	cont "obtain it."
