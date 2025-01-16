@@ -1330,7 +1330,7 @@ BattleCommand_Stab:
 ; DevNote - Uber moves are guaranteed to always be neutral
 	cp UBER
 	jp nz, .goOn
-	ld a, 1
+	ld a, EFFECTIVE
 	ld [wTypeModifier], a
 	ret
 .goOn
