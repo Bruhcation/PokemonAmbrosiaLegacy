@@ -354,6 +354,21 @@ ApproachBlueScript1:
     iftrue .end
     checkevent EVENT_VIRIDIAN_GYM_BLUE
     iftrue .end
+	checkevent EVENT_BEAT_BROCK
+	iffalse .end
+	checkevent EVENT_BEAT_MISTY
+	iffalse .end
+	checkevent EVENT_BEAT_LTSURGE
+	iffalse .end
+	checkevent EVENT_BEAT_ERIKA
+	iffalse .end
+	checkevent EVENT_BEAT_JANINE
+	iffalse .end
+	checkevent EVENT_BEAT_WILL
+	iffalse .end
+	checkevent EVENT_BEAT_BLAINE
+	iffalse .end
+
     applymovement PLAYER, Movement_ApproachBlue1
     turnobject VIRIDIANGYM_BLUE, LEFT
     sjump ViridianGymBlueScript
@@ -367,11 +382,27 @@ ApproachBlueScript2:
     iftrue .end
     checkevent EVENT_VIRIDIAN_GYM_BLUE
     iftrue .end
+	checkevent EVENT_BEAT_BROCK
+	iffalse .end
+	checkevent EVENT_BEAT_MISTY
+	iffalse .end
+	checkevent EVENT_BEAT_LTSURGE
+	iffalse .end
+	checkevent EVENT_BEAT_ERIKA
+	iffalse .end
+	checkevent EVENT_BEAT_JANINE
+	iffalse .end
+	checkevent EVENT_BEAT_WILL
+	iffalse .end
+	checkevent EVENT_BEAT_BLAINE
+	iffalse .end
+
     applymovement PLAYER, Movement_ApproachBlue2
     turnobject VIRIDIANGYM_BLUE, LEFT
     sjump ViridianGymBlueScript
 .end
     end
+
 
 Movement_ApproachBlue1:
     step UP
