@@ -343,10 +343,10 @@ TwinsAmyandmay2BeatenText:
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "You're luck my"
+	text "You're lucky my"
 	line "sister is holding"
 	cont "me back or I'd"
-	cont "slap you silly!"
+	cont "slap you, silly!"
 	done
 
 AzaleaGymGuideText:
@@ -365,7 +365,7 @@ AzaleaGymGuideText:
 AzaleaGymGuideWinText:
 	text "I guess it's a BUG"
 	line "eat BUG world out"
-	cont "there eh."
+	cont "there, eh?"
 	done
 	done
 
