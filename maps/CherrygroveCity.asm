@@ -728,8 +728,8 @@ takeLifeOrbText:
     done
 
 GoGetRedEyeOrbText:
-    text "Lovely day isn't"
-    line "it."
+    text "Lovely day, isn't"
+    line "it?"
 
     para "It is always"
     line "nice here."
@@ -783,7 +783,7 @@ GotRedEyeOrbText:
     cont "your money."
 
     para "Doesn't sound"
-    line "fair does it."
+    line "fair, does it?"
 
     para "But life wouldn't"
     line "be fun if it was"
@@ -884,7 +884,7 @@ JuliusOfferFightText:
     para "I won't even take"
     line "your pitiful"
     cont "savings when I"
-    cont "win?"
+    cont "win!"
     done
 JuliusAfterBattleText:
     text "I misjudged you."
