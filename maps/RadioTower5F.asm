@@ -346,7 +346,7 @@ RadioTower5CrystalText:
     line "will be back."
 
     para "Our race is still"
-    line "on don't forget!"
+    line "on, don't forget!"
     done
 
 FakeDirectorTextBefore1:
@@ -425,7 +425,7 @@ FakeDirectorTextAfter:
 	line "simple to see the"
 	cont "nuance of this."
 
-	para "Fine go rescue"
+	para "Fine, go rescue"
 	line "your DIRECTOR."
 
 	para "He is stashed"

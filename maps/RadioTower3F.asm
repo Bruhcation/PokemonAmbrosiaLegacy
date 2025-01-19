@@ -128,7 +128,7 @@ RadioTower3FSuperNerdText:
 	line "#MON."
 
 	para "When I complete"
-	line "ot I will sell"
+	line "it I will sell"
 	cont "it and make a"
 	cont "fortune."
 	done
@@ -182,7 +182,7 @@ RadioTower3FCooltrainerFYoureMyHeroText:
 	line "of TEAM ROCKET!"
 
 	para "I heard a hero"
-	line "from KANTO done"
+	line "from KANTO did"
 	cont "that 5 years ago."
 	done
 

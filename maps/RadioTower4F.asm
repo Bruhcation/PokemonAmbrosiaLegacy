@@ -207,8 +207,8 @@ ScientistRichSeenText:
 	done
 
 ScientistRichBeatenText:
-	text "Tis but a minor"
-	line "set back."
+	text "This is but a"
+	line "minor set back."
 	done
 
 ScientistRichAfterBattleText:
