@@ -44,7 +44,7 @@ Route32_MapScripts:
     appear ROUTE32_FIELDMON_7
     disappear ROUTE32_CRYSTAL
 
-    random 4
+    random 5
     ifequal 1, .spawn8
     disappear ROUTE32_FIELDMON_8
     disappear ROUTE32_FIELDMON_3
@@ -405,7 +405,7 @@ Route32CooltrainerMText_VioletGym:
 	line "never saw him"
 	cont "again."
 
-	para "I am sure was"
+	para "I am sure he was"
 	line "attacked by a"
 	cont "rapid QUAGSIRE."
 

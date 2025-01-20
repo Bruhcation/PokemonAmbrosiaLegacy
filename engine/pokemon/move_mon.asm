@@ -205,6 +205,19 @@ endr
 ; this part is for non wild pokes, so gift mon
 ; DevNote - Gift Pokemon DVs - after having 8 badges all gift pokemon have max dvs
 ; pikachu always has max dvs
+
+; DevNote - shiny - all gift Pokemon have 2% chance to be shiny
+	call BattleRandom
+    cp 2 percent
+    jr c, .GenerateShinyDVs
+    jr .normal
+
+.GenerateShinyDVs
+	ld b, ATKDEFDV_SHINY ; $FD
+	ld c, SPDSPCDV_SHINY ; $FF
+	jr .initializeDVs
+
+.normal
 	ld a, [wJohtoBadges]
 	cp %11111111 ; all badges
 	jr nz, .checkPikachu

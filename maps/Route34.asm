@@ -25,7 +25,7 @@ Route34_MapScripts:
 .EggCheckCallback:
     appear ROUTE34_FIELDMON_3
     appear ROUTE34_FIELDMON_4
-    random 4
+    random 5
     ifequal 1, .cont
     disappear ROUTE34_FIELDMON_4
 .cont

@@ -53,7 +53,7 @@ NationalPark_MapScripts:
     appear NATIONALPARK_FIELDMON_5
 
 ; Pokemon that sometimes appear
-    random 4 ; shiny
+    random 5 ; shiny
     ifequal 1, .spawn6
     disappear NATIONALPARK_FIELDMON_6
     sjump .checkNight

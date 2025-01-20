@@ -5953,7 +5953,7 @@ BattleCommand_Judgement:
     jr z, .done
 
 	call BattleRandom
-	cp 10 percent ; 5% chance of instant death
+	cp 10 percent ; 10% chance of instant death
 	jr nc, .done
 	call ResetDamage
 	call BattleCommand_CheckHit

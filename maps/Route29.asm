@@ -47,7 +47,7 @@ Route29_MapScripts:
     appear ROUTE29_FIELDMON_6
 
 .mon8
-    random 4
+    random 5
     ifequal 1, .spawn8
     disappear ROUTE29_FIELDMON_8
     sjump .checkNight

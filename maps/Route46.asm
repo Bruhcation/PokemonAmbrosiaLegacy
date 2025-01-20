@@ -22,10 +22,9 @@ Route46_MapScripts:
     appear ROUTE46_FIELDMON_1
     appear ROUTE46_FIELDMON_2
     appear ROUTE46_FIELDMON_3
-    appear ROUTE46_FIELDMON_4
     appear ROUTE46_FIELDMON_5
 
-    random 4
+    random 5
     ifequal 1, .spawn
     disappear ROUTE46_FIELDMON_4
     endcallback

@@ -28,7 +28,7 @@ Route6_MapScripts:
     appear ROUTE6_FIELDMON_4
     appear ROUTE6_FIELDMON_6
 
-    random 4
+    random 5
     ifequal 1, .spawn8
     disappear ROUTE6_FIELDMON_5
     sjump .checkNight

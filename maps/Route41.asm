@@ -37,7 +37,7 @@ Route41_MapScripts:
     appear ROUTE41_FIELDMON_5
 
 .mon8
-    random 4 ; shiny
+    random 5 ; shiny
     ifequal 1, .spawn8
     disappear ROUTE41_FIELDMON_6
     sjump .end

@@ -38,7 +38,7 @@ Route38_MapScripts:
     appear ROUTE38_FIELDMON_5
 
 .mon8
-    random 4 ; shiny
+    random 5 ; shiny
     ifequal 1, .spawn8
     disappear ROUTE38_FIELDMON_8
     sjump .checkNight

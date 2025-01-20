@@ -44,7 +44,7 @@ Route12_MapScripts:
     appear ROUTE12_FIELDMON_6
 
 .mon8
-    random 4 ; shiny
+    random 5 ; shiny
     ifequal 1, .spawn8
     disappear ROUTE12_FIELDMON_8
     sjump .checkNight

@@ -28,7 +28,7 @@ Route39_MapScripts:
     appear ROUTE39_FIELDMON_7
 
 ; Pokemon that sometimes appear
-    random 4
+    random 5
     ifequal 1, .spawn6
     disappear ROUTE39_FIELDMON_4
     sjump .mon7

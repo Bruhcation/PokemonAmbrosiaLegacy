@@ -32,7 +32,7 @@ Route37_MapScripts:
     appear ROUTE37_FIELDMON_7
 
 ; Pokemon that sometimes appear
-    random 4 ; shiny
+    random 5 ; shiny
     ifequal 1, .spawn8
     disappear ROUTE37_FIELDMON_8
     sjump .sun

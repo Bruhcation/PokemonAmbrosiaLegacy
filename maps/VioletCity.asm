@@ -32,7 +32,7 @@ VioletCity_MapScripts:
     appear VIOLETCITY_FIELDMON_2
     appear VIOLETCITY_FIELDMON_3
 
-    random 4
+    random 5
     ifequal 1, .spawn1
     disappear VIOLETCITY_FIELDMON_4
     sjump .mon5

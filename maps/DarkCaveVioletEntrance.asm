@@ -29,7 +29,7 @@ DarkCaveVioletEntrance_MapScripts:
     appear DARKCAVEVIOLETENTRANCE_FIELDMON_6
     appear DARKCAVEVIOLETENTRANCE_FIELDMON_8
 
-    random 4
+    random 5
     ifequal 1, .spawn
     disappear DARKCAVEVIOLETENTRANCE_FIELDMON_7
     endcallback

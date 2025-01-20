@@ -45,7 +45,7 @@ WhirlIslandB1F_MapScripts:
     appear WHIRLISLANDB1F_FIELDMON_7
 
 .mon8
-    random 4 ; shiny
+    random 5 ; shiny
     ifequal 1, .spawn8
     disappear WHIRLISLANDB1F_FIELDMON_8
     sjump .end

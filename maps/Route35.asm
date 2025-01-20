@@ -25,7 +25,7 @@ Route35_MapScripts:
     appear ROUTE35_FIELDMON_2
     appear ROUTE35_FIELDMON_3
 
-    random 4
+    random 5
     ifequal 1, .spawn4
     disappear ROUTE35_FIELDMON_4
     sjump .checkNight
