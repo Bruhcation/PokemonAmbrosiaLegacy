@@ -771,22 +771,20 @@ MeowthEvosAttacks:
 	db EVOLVE_LEVEL, 28, PERSIAN
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, GROWL
-	db 11, BITE
-	db 18, SWIFT
-	db 22, SCREECH
-	db 25, CUT
+	db 1, SCREECH
+	db 10, BITE
+	db 16, CUT
+	db 22, SWIFT
 	db 30, SLASH
 	db 0 ; no more level-up moves
 
 PersianEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, GROWL
-	db 11, BITE
-	db 18, SWIFT
-	db 22, SCREECH
-	db 25, CUT
+	db 1, SCREECH
+	db 10, BITE
+	db 16, CUT
+	db 22, SWIFT
 	db 28, SLASH
 	db 0 ; no more level-up moves
 
@@ -2721,6 +2719,7 @@ TogekissEvosAttacks:
 	db 40, AIR_SLASH
 	db 42, PLAY_ROUGH
 	db 45, MOON_BLAST
+	db 55, CALM_MIND
 	db 0 ; no more level-up moves
 
 SigilyphEvosAttacks:
@@ -2784,6 +2783,7 @@ SylveonEvosAttacks:
 	db 30, DRAIN_KISS
 	db 40, MOONLIGHT
 	db 45, MOON_BLAST
+	db 50, CALM_MIND
 	db 0 ; no more level-up moves
 
 MismagiusEvosAttacks:
@@ -3137,7 +3137,6 @@ DunsparceEvosAttacks:
 	db 20, ANCIENTPOWER
 	db 25, CRUNCH
 	db 30, ROOST
-	db 35, SHADOW_FIST
 	db 40, DOUBLE_EDGE
 	db 50, DRAGON_DANCE
 	db 100, AFTER_IMAGE
@@ -3678,12 +3677,12 @@ EnteiEvosAttacks:
 	db 1, LEER
 	db 11, EMBER
 	db 21, ROAR
-	db 31, FIRE_SPIN
-	db 41, STOMP
-	db 45, FLAMETHROWER
-	db 50, FIRE_BLAST
-	db 55, CLOSE_COMBAT
-	db 60, FLARE_BLITZ
+	db 31, FLAMETHROWER
+	db 41, FIRE_BLAST
+	db 45, EXTREMESPEED
+	db 50, CLOSE_COMBAT
+	db 55, FLARE_BLITZ
+	db 60, SACRED_FIRE
 	db 0 ; no more level-up moves
 
 SuicuneEvosAttacks:
