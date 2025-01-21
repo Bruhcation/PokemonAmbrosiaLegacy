@@ -111,8 +111,8 @@ RedGyarados:
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SHINY
 	loadwildmon GYARADOS, 45
 	startbattle
-	disappear LAKEOFRAGE_GYARADOS
 	reloadmapafterbattle
+	disappear LAKEOFRAGE_GYARADOS
 	appear LAKEOFRAGE_LANCE
 	end
 .notInterested:
