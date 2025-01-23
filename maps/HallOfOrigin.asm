@@ -11,12 +11,7 @@ HallOfOrigin_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, .FlyPoint
 	callback MAPCALLBACK_OBJECTS, .ArceusAndOak
-
-.FlyPoint:
-	setflag ENGINE_FLYPOINT_HALL_OF_ORIGIN
-	endcallback
 
 .ArceusAndOak
     appear HALLOFORIGIN_ZYGARDE_1
@@ -1844,9 +1839,11 @@ InvaderMasterPatches:
 	winlosstext InvaderMasterPatchesBeatenText, InvaderMasterPatchesVictoryText
 	loadtrainer INVADER, MASTER_PATCHES
 	startbattle
+	ifequal LOSE, .Lose
 	reloadmapafterbattle
 
 	setmapscene ORIGIN_ROAD, SCENE_FINISHED
+	setflag ENGINE_FLYPOINT_HALL_OF_ORIGIN
 
 	checkevent EVENT_BEAT_MASTER_PATCHES
 	iftrue .finish
@@ -1873,6 +1870,20 @@ InvaderMasterPatches:
 	waitbutton
 	closetext
 	end
+.Lose
+    special HealParty
+    reloadmap
+    opentext
+    writetext LoseAfterBattleTextMasterPatches
+    waitbutton
+    closetext
+    applymovement PLAYER, Movement_HallOfOriginTurnBack
+    end
+
+LoseAfterBattleTextMasterPatches:
+    text "No hard feelings"
+    line "friend."
+    done
 
 RematchTextPatches:
     text "How about a"
