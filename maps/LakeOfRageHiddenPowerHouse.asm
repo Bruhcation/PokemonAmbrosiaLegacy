@@ -7,8 +7,8 @@ LakeOfRageHiddenPowerHouse_MapScripts:
 	def_callbacks
 
 HiddenPowerGuy:
-    setevent EVENT_MET_MAHOGANY_MURDERER
-    checkevent EVENT_BEAT_MAHOGANY_MURDERER
+    setevent EVENT_MET_KRAUSER
+    checkevent EVENT_BEAT_KRAUSER
     iftrue .beaten
     jumptextfaceplayer HiFriendText
 .beaten
@@ -22,9 +22,9 @@ HiddenPowerHouseBookshelf:
     end
 
 MurderScript1:
-    checkevent EVENT_MET_MAHOGANY_MURDERER
+    checkevent EVENT_MET_KRAUSER
     iffalse .end
-    checkevent EVENT_BEAT_MAHOGANY_MURDERER
+    checkevent EVENT_BEAT_KRAUSER
     iffalse .assault
     turnobject LAKEOFRAGEHIDDENPOWERHOUSE_FISHER, DOWN
     opentext
@@ -42,11 +42,11 @@ MurderScript1:
 	writemem wBattleMusicOverride
 	winlosstext MurdererLossText, MurdererWinText
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SETNOITEMS
-	loadtrainer HIKER, MAHOGANY_MURDERER
+	loadtrainer HIKER, KRAUSER
 	startbattle
     ifequal LOSE, .lose
 	reloadmapafterbattle
-	setevent EVENT_BEAT_MAHOGANY_MURDERER
+	setevent EVENT_BEAT_KRAUSER
 	turnobject PLAYER, UP
 	opentext
 	writetext MurderGivesThunderboltText
@@ -61,9 +61,9 @@ MurderScript1:
 	end
 
 MurderScript2:
-    checkevent EVENT_MET_MAHOGANY_MURDERER
+    checkevent EVENT_MET_KRAUSER
     iffalse .end
-    checkevent EVENT_BEAT_MAHOGANY_MURDERER
+    checkevent EVENT_BEAT_KRAUSER
     iffalse .assault
     turnobject LAKEOFRAGEHIDDENPOWERHOUSE_FISHER, DOWN
     opentext
@@ -81,10 +81,10 @@ MurderScript2:
 	writemem wBattleMusicOverride
 	winlosstext MurdererLossText, MurdererWinText
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SETNOITEMS
-	loadtrainer HIKER, MAHOGANY_MURDERER
+	loadtrainer HIKER, KRAUSER
 	startbattle
 	reloadmapafterbattle
-	setevent EVENT_BEAT_MAHOGANY_MURDERER
+	setevent EVENT_BEAT_KRAUSER
 	turnobject PLAYER, UP
 	opentext
 	writetext MurderGivesThunderboltText
@@ -115,8 +115,8 @@ DontLeaveText:
 
     para "...."
 
-    para "Please don't"
-    line "leave!"
+    para "WITNESS THE"
+    line "POWER!"
     done
 
 HiFriendText:
