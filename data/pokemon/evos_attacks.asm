@@ -312,7 +312,7 @@ RattataEvosAttacks:
 	db 20, FALSE_SWIPE
 	db 25, CRUNCH
 	db 30, EXTREMESPEED
-	db 50, FINAL_FANG
+	db 35, FINAL_FANG
 	db 0 ; no more level-up moves
 
 RaticateEvosAttacks:
@@ -324,7 +324,7 @@ RaticateEvosAttacks:
 	db 20, FALSE_SWIPE
 	db 25, CRUNCH
 	db 30, EXTREMESPEED
-	db 50, FINAL_FANG
+	db 35, FINAL_FANG
 	db 0 ; no more level-up moves
 
 BunearyEvosAttacks:

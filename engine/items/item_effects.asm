@@ -222,7 +222,7 @@ PokeBallEffect:
     push bc
     ld b, a
     ld a, [wEnemyMonLevel]
-    add 9
+    add 4
     cp b
     pop bc
     jr c, .capture
