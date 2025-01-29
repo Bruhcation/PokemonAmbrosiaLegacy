@@ -1,6 +1,6 @@
 	db LOPUNNY ; 022
 
-	db  65,  76,  84, 105,  54,  96
+	db  65, 106,  84, 105,  54,  96
 	;   hp  atk  def  spd  sat  sdf
 
 	db FAIRY, FIGHTING ; type
