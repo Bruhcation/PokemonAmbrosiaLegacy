@@ -1,5 +1,7 @@
 # Pokémon Ambrosia
 
+This Folk Version Aims to Improve the Story and Certain Pokemon Such as Arbok, Like Legacy
+
 A Romhack based on Pokémon Crystal with a focus on unique features, fun gameplay and extensive additional and post game content.
 
 <img src="/screenshots/ambrosia.png" width="250" height="250" />
