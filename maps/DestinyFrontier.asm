@@ -209,7 +209,7 @@ MasterSetoScript:
 	closetext
 	winlosstext MasterSetoBeatenText, MasterSetoWinText
 	loadvar VAR_BATTLETYPE, BATTLETYPE_BOSS_BATTLE
-	loadtrainer BLUE, MASTER_SETO
+	loadtrainer BLUE, MASTER_GOJO
 	startbattle
 	ifequal LOSE, .Lose
 	reloadmapafterbattle

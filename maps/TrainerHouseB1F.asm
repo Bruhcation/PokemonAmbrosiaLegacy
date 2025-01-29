@@ -528,12 +528,12 @@ BattleRouletteReceptionistScript:
 .Seto
     checkevent EVENT_BEAT_RED
     iffalse .Seto1
-    loadtrainer BLUE, MASTER_SETO
+    loadtrainer BLUE, MASTER_GOJO
     sjump .finish
 .Seto1
     checkevent EVENT_BEAT_SETO
     iffalse .sample
-    loadtrainer BLUE, SETO
+    loadtrainer BLUE, GOJO
     sjump .finish
 
 .Yami

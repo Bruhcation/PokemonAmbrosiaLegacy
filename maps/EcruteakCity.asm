@@ -259,7 +259,7 @@ SetoScript:
 	closetext
 	winlosstext SetoBeatenText, 0
 	loadvar VAR_BATTLETYPE, BATTLETYPE_SETNOITEMS
-	loadtrainer BLUE, SETO
+	loadtrainer BLUE, GOJO
 	startbattle
 	reloadmapafterbattle
 	setevent EVENT_BEAT_SETO

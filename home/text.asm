@@ -412,7 +412,7 @@ PlaceEnemysName::
 ;    cp BLUE
 ;    jr nz, .notBlue
 ;    ld a, [wOtherTrainerID]
-;    cp SETO
+;    cp GOJO
 ;    jr nc, .skipClass
 ;    jr .printClass
 ;.notBlue
